@@ -3,6 +3,9 @@
 
 # But not these files...
 !.gitignore
+!LICENSE
 !/www/
 !www/*
+!/screenshots/
+!screenshots/*
 !config.xml
