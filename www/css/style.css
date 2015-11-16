@@ -1,0 +1,129 @@
+/* Tags */
+body {
+	color: white;
+	background-image: url('../img/bg-warm2.png');
+	padding-top: 10px;
+}
+
+/*table td {
+	border: 2px solid red;
+}*/
+
+/* IDs */
+#notes_table {
+	width: 100%;
+	height: 85%;
+}
+
+#start {
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	height: 70px;
+
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	line-height: 70px;
+
+	background-color: #8AF;
+}
+
+#gear {
+	opacity: 1;
+	width: 65%;
+	vertical-align: middle;
+}
+
+/* Classes */
+
+.outer_circle {
+	background-color:black;
+	border-radius: 50px;
+
+	transform: translateY(-450px);
+	transition: transform 1.6s ease-out;
+	position: absolute;
+
+	/* pre anumation */
+	left: 50%;
+	margin-left: -25px;
+	width: 50px;
+	height: 50px;
+
+	-webkit-box-shadow: 0 0 25px black;
+/*	-moz-box-shadow: 0 0 20px blue; 
+	box-shadow:0 0 20px blue;*/
+}
+
+.inner_circle {
+	background-color:white;
+	border-radius: 50px;
+	
+	transform: translateY(-450px);
+	transition: transform 1.6s ease-out, color 1s ease-out;
+	position: absolute;
+	overflow: hidden;
+	
+	/* pre animation */
+	left: 50%;
+	margin-left: -20px;
+	width: 40px;
+	height: 40px;
+
+	color: #fff;
+	font-size: 16px;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.inner_settings {
+	-webkit-box-shadow: 0 0 25px white;
+
+	position: relative;
+
+	/*transform: translateY(-250px);
+	transition: transform 1s ease-out;*/
+
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+
+	text-align: center;
+	border-radius: 50px;
+	border: solid 2px black;
+	width: 120px;
+	height: 44px;
+	line-height: 40px;
+
+	color: #000;
+	font-size: 20px;
+	
+
+	
+	z-index: 1000;
+}
+
+.screen {
+	/*display: none;*/
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	text-align: center;
+	/*margin-top: 20px;*/
+	padding: 5px 5px 5px 5px;
+}
+
+.scale {
+	color: black;
+	text-align: center;
+	font-size: 14px;
+	background-color: white;
+	border: 1px solid #000;
+	padding: 4px 2px 4px 2px;
+}
+
+.selected {
+	background-color: #DDD;
+}
