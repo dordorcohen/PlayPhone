@@ -5,3 +5,4 @@
 !.gitignore
 !/www/
 !www/*
+!config.xml
