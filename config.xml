@@ -2,7 +2,7 @@
 <widget id="com.ionicframework.playphone935516" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>PlayPhone</name>
   <description>
-        The app is a musical instrument that fits better to your android device.
+        Musical instrument that fits better to your android device.
     </description>
   <author email="dordchn@gmail.com" href="http://www.dorcohen.co.il/">
       Dor David Cohen
