@@ -7,6 +7,3 @@ Created during a hackathon (2 Days) at the Technion, Israel.
 
 ### Screenshots
 <img src="screenshots/first.png?raw=true" width="500">
-
-### Copyrights
-&copy; Created by [dordorcohen](https://github.com/dordorcohen)
